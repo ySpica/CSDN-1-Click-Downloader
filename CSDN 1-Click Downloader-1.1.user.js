@@ -1,13 +1,16 @@
 // ==UserScript==
 // @name         CSDN 1-Click Downloader
-// @namespace    http://tampermonkey.net/
-// @version      1.0
+// @namespace    https://github.com/ySpica
+// @version      1.1
 // @description  1-Click Download CSDN pages to PDF
-// @author       Spica Y
+// @author       Spica Yeung
 // @connect      www.csdn.net
 // @match        https://blog.csdn.net/*/article/details/*
 // @icon         none
 // @grant        none
+// @license      MIT
+// @downloadURL  https://update.greasyfork.org/scripts/495557/CSDN%201-Click%20Downloader.user.js
+// @updateURL    https://update.greasyfork.org/scripts/495557/CSDN%201-Click%20Downloader.meta.js
 // ==/UserScript==
 
 (function() {
@@ -15,7 +18,7 @@
 
     // Add a button to the page
     const button = document.createElement('button');
-    button.textContent = 'Download Blog';
+    button.textContent = '↡';
     button.style.position = 'fixed';
     button.style.top = '50px';
     button.style.right = '5px';

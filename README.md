@@ -19,7 +19,7 @@ This Tampermonkey script add a download button in the CSDN blog interface by exp
 
 ## Usage
 
-After installation, visit any CSDN blog post page, and you'll see a new button labeled "Clean Page" at the top right corner of the page. Clicking this button will clean up the page and prompt for print.
+After installation, visit any CSDN blog post page, and you'll see a new button labeled "↡" at the top right corner of the page. Clicking this button will pop up export option that save the content of the blog.
 
 ## Contributing
 
