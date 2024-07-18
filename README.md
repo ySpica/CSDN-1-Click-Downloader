@@ -19,11 +19,13 @@ This Tampermonkey script add a download button in the CSDN blog interface by exp
 
 ## Usage
 
-After installation, visit any CSDN blog post page, hover you cursor to the left bottom corner of the page.  The button will automatically show up, click the button to save the content of the blog as PDF and so.
+After installation, visit any CSDN blog post page, hover your cursor to the left bottom corner of the page.<br />
+The button will automatically show up, click the button to save the content of the blog as PDF and so.
 
 ## Contributing
 
-Contributions to the script are welcome!  If you have suggestions for improving it or have found bugs, please feel free to fork the repository, make changes, and submit a pull request.
+Contributions to the script are welcome!<br />
+If you have suggestions for improving it or have found bugs, please feel free to fork the repository, make changes, and submit a pull request.
 
 ## License
 
