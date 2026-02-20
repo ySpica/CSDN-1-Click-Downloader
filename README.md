@@ -20,7 +20,9 @@ This Tampermonkey script add a download button in the CSDN blog interface by exp
 ## Usage
 
 After installation, visit any CSDN blog post page, hover your cursor to the left bottom corner of the page.<br />
-The button will automatically show up, click the button to save the content of the blog as PDF and so.
+The button will automatically show up, click the button to save the content of the blog as PDF and so.  
+!!! IMPORTANT !!!  
+If you want the button always shown. Edit this line in the code: "button.style.display = 'none';".
 
 ## Contributing
 
